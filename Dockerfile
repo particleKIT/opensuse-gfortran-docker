@@ -11,4 +11,7 @@ RUN zypper --non-interactive in --auto-agree-with-licenses \
     binutils-gold \
     gsl gsl-devel \
     python3-pytest \
+    LHAPDF-devel libLHAPDF python-openssl \
     git
+
+RUN lhapdf update && lhapdf install CT14nlo
