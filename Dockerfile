@@ -10,6 +10,7 @@ RUN zypper --non-interactive in --auto-agree-with-licenses \
     gcc5 gcc5-fortran gcc5-c++ \
     binutils-gold \
     gsl gsl-devel \
+    openmpi openmpi-devel \
     python3-pytest \
     LHAPDF-devel libLHAPDF python-openssl \
     git
