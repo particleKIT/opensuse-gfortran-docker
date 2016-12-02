@@ -13,7 +13,7 @@ RUN zypper --non-interactive in --auto-agree-with-licenses \
     openmpi openmpi-devel Modules \
     python3-pytest \
     LHAPDF-devel libLHAPDF python-openssl \
-    fastjet-devel libfastjet0 \
+    fastjet-devel libfastjet0 fastjet-plugin-siscone fastjet-plugin-siscone-devel \
     git
 
 RUN lhapdf update && lhapdf install cteq6l1 CT10nlo CT14nlo
