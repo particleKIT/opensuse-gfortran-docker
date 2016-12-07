@@ -1,4 +1,4 @@
-FROM opensuse:42.1
+FROM opensuse:42.2
 MAINTAINER robin.roth@kit.edu
 
 RUN zypper --gpg-auto-import-keys --non-interactive ref && \
