@@ -11,7 +11,7 @@ RUN zypper --non-interactive in --auto-agree-with-licenses \
     binutils-gold \
     gsl gsl-devel \
     openmpi openmpi-devel Modules \
-    python3-pytest \
+    python3-pytest which \
     LHAPDF-devel libLHAPDF python-openssl \
     fastjet-devel libfastjet0 fastjet-plugin-siscone fastjet-plugin-siscone-devel \
     texlive-latex texlive-collection-science texlive-collection-latexextra \
