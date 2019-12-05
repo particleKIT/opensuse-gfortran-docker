@@ -1,4 +1,4 @@
-FROM opensuse/leap:15.0
+FROM opensuse/leap:latest
 MAINTAINER robin.roth@kit.edu
 
 RUN zypper --gpg-auto-import-keys --non-interactive ref && \
