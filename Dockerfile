@@ -1,5 +1,5 @@
 FROM opensuse/leap:latest
-MAINTAINER robin.roth@kit.edu
+MAINTAINER particle-admin@lists.kit.edu
 
 RUN zypper --gpg-auto-import-keys --non-interactive ref && \
     zypper --gpg-auto-import-keys --non-interactive up
