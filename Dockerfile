@@ -11,7 +11,7 @@ RUN zypper --non-interactive in --auto-agree-with-licenses \
     gsl gsl-devel \
     openmpi openmpi-devel Modules \
     python3-pytest which \
-    LHAPDF-devel libLHAPDF python-LHAPDF python3-pyOpenSSL \
+    LHAPDF-devel libLHAPDF python-LHAPDF python3-LHAPDF python3-pyOpenSSL \
     fastjet-devel libfastjet0 fastjet-plugin-siscone fastjet-plugin-siscone-devel \
     texlive-latex texlive-collection-mathscience texlive-collection-latexextra \
     git gzip wget
